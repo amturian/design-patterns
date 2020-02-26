@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<script>
+  $(document).ready(function() {
+    let input = $('<input/>'); 
+    input.attr('type', 'number');
+    input.attr('min', 0);
+    console.log('partially constructed input: ', input);
+    input.attr('max', 10);
+    input.prop('required', true);
+    input.val(7);
+
+    input.appendTo('.parent-container');
+
+    // create an empty div; other part of the code is responsible for setting a text value in it
+    // $() does not enforce setting the text here
+    let element = $('<div></div>');
+    element.attr('id', 'text');
+    element.appendTo('.parent-container');
+  });
+  
+  $(document).click(function() {
+    $('#text').html('User clicked on document.');
+  });
+</script>
+<body>
+  <h4>jQuery $() function is an example of Builder pattern</h4>
+  <div>jQuery $() is used to create new DOM elements. The API exposes methods with which we can set different parts of an element as we need them, without having to build in advance, at once, the whole HTML string needed for the final element.
+  </div>
+  <ul>
+    <li>$() returns a partially constructed element that is not yet part of the DOM tree</li>
+    <li>$() provides a way to manipulate the internal state of an object</li>
+     <li>$() provides a way to get the final result of the construction: appendTo(), insertAfter()</li>
+     <li>Internally, jQuery uses <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment">createDocumentFragment</a></li>
+  </ul>
+  <hr/>
+  <div class="parent-container">
+    <div>This is a static div, any other element below is dynamically created with jQuery.</div>
+  </div>
+
+</body>
+
+</html>
