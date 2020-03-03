@@ -11,3 +11,7 @@ Open `index.html` from  `jquery-builder` folder
 # Protoype
 Run `script.js` in browser console or any online JavaScript editor
 
+# Factory
+Example on how to create an http or https server in nodejs, using factory pattern
+Run `cd nodejs-factory & node index http://localhost:3000`
+Send a request to http://localhost:8082 and watch server logs
