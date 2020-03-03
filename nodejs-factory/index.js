@@ -23,7 +23,6 @@ var HttpServer = function () {
 }
 
 var HttpsServer = function () {
-	// use options to set
 	let options = {};
 	// certificates can be read from local files
 	// options.key = readFile(pathToFileWithKey);
