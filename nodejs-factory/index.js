@@ -32,12 +32,12 @@ var HttpsServer = function () {
 }
 
 function listener(req, res) {
-	// log incoming requests to server
+	// log incoming requests
 	console.log(new Date().toISOString(), req.url, req.headers);
 }
 
 let url = new URL(process.argv[2]);
 let server = (new ServerFactory).createServer(url.protocol);
 
-// Set your server to listen on port 8082 with previously set listener
+// Set your server to listen on port 8082
 server.listen('8082');
