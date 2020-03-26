@@ -20,3 +20,6 @@ Send a request to http://localhost:8082 and watch server logs
 JavaScript on how to work with a group of factories\
 Run `script.js` content in browser console or any online JavaScript editor\
 
+# Adapter
+Example on how to deal with data from two external sources that use different formats using adapter\
+Run `index.js` content in browser console or any online JavaScript editor
