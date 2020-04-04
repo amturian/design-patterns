@@ -2,7 +2,7 @@
 Design Patterns in JavaScript
 
 # Singleton 
-How to run: `cd nodejs-singleton folder & node index`
+Run `cd nodejs-singleton folder & node index` in terminal
 
 # Builder 
 Example on how builder pattern is adopted by jQuery's API
@@ -18,8 +18,12 @@ Send a request to http://localhost:8082 and watch server logs
 
 # Abstract factory
 JavaScript on how to work with a group of factories\
-Run `script.js` content in browser console or any online JavaScript editor\
+Run `script.js` content in browser console or any online JavaScript editor
 
 # Adapter
 Example on how to deal with data from two external sources that use different formats using adapter\
 Run `index.js` content in browser console or any online JavaScript editor
+
+# Composite
+Example on how to render a file explorer, using npm package dree strucuture to represent a folder with subfolders and files.\
+Run `script.js` content in browser console or any online JavaScript editor
