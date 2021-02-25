@@ -17,8 +17,9 @@ Run `cd nodejs-factory & node index http://localhost:3000`\
 Send a request to http://localhost:8082 and watch server logs
 
 # Abstract factory
-JavaScript on how to work with a group of factories\
-Run `script.js` content in browser console or any online JavaScript editor
+TypeScript example on how to work with a group of factories\
+Try this online editor to run TypeScript (example is included)
+https://repl.it/@alexandraturian/AbstractFactory-1#index.ts
 
 # Adapter
 Example on how to deal with data from two external sources that use different formats using adapter\
