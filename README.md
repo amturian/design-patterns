@@ -1,5 +1,6 @@
 # design-patterns
 Design Patterns in JavaScript
+See attached presentations in PPT Presentations folder
 
 # Singleton 
 Run `cd nodejs-singleton folder & node index` in terminal
