@@ -30,3 +30,7 @@ Run `index.js` content in browser console or any online JavaScript editor
 # Composite
 Example on how to render a file explorer, using npm package dree strucuture to represent a folder with subfolders and files.\
 Run `script.js` content in browser console or any online JavaScript editor
+
+# Mediator 
+Small chatroom example \
+Try it here: https://replit.com/@alexandraturian/ChatWithMediator#index.ts
