@@ -33,4 +33,10 @@ Run `script.js` content in browser console or any online JavaScript editor
 
 # Mediator 
 Small chatroom example \
-Try it here: https://replit.com/@alexandraturian/ChatWithMediator#index.ts
+Try this online editor to run: https://replit.com/@alexandraturian/ChatWithMediator#index.ts
+
+# Observer
+Subject/Observable: Small user form with one text input
+Subscribers/Observers: Display number of users + users list components
+Open index.html in any browser or any online HTML, CSS, JS editor
+Find the example here: https://codesandbox.io/s/observerpatternexample-z01ps
