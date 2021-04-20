@@ -43,3 +43,9 @@ Find the example here: https://codesandbox.io/s/observerpatternexample-z01ps
 
 # State 
 Try this online editor to run: https://replit.com/@alexandraturian/StatePattern#index.ts
+
+# Visitor 
+Example on how to add shipping cost logic for car parts order. \
+Try any online editor that supports TypeScript. \ 
+How to run locally using WebStorm: https://www.jetbrains.com/help/webstorm/running-and-debugging-typescript.html#ws_ts_run_debug_server_side \
+Entry point (main): typescript-visitor/VisitorDemo.ts \
