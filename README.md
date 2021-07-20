@@ -1,5 +1,5 @@
 # design patterns
-Design Patterns in JavaScript \
+Design Patterns in JavaScript and TypeScript \
 See attached presentations in PPT Presentations folder
 
 # Singleton 
